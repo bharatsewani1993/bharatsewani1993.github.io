@@ -365,7 +365,8 @@ ul.responsibilitieslistalinment{
 
 /*last update margin*/
 .lastupdatemargin {
-  margin-left: 12%;
+ /* margin-left: 12%;*/
+  width: 100%;
 }
 
 /*three page*/
