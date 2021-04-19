@@ -1,0 +1,13 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+.projectmargin {
+    padding: 2%;
+    line-height: 155%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+}
+

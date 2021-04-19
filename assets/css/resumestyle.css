@@ -1,0 +1,667 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEDF0;
+   
+}
+/*skill name */
+.skillnnname {
+    background-color: #4F90CD;
+    padding: 7px 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0.10%;
+    
+
+}
+
+.leftrightmargin {
+    background-color: #ffffff;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 5.3%;
+    margin-right: 5.3%;
+    box-sizing: border-box;
+    padding-left: 7.2%;
+    padding-right: 7.2%;
+    margin-top: 1.5%;
+
+}
+
+/*introductionpar */
+.introductionpara p {
+  line-height: 115%;
+  word-spacing: 6%
+}
+
+/* social media link*/
+.allsocialmedialinks ul li{
+  line-height: 130%;
+  margin-top: 5%;
+  text-align: right;
+  list-style-type: none;
+  
+}
+
+.allsocialmedialinks ul li a {
+color: #000000;
+}
+
+
+ul.responsibilitieslistalinment{
+  list-style-position: outside;
+}
+
+  .responsibilitieslistalinment {
+    list-style: none;
+
+
+     
+  }
+
+  ul {
+    list-style-position: outside;
+  }
+
+  .achievements::before {
+    content: "• ";
+    color: #4F90CD;
+    font-size: 20px;
+  }
+  
+
+
+  /*Techincal skill margin*/
+  .technicaltitlemargin {
+    margin-top: 1.5%;
+  }
+
+  /*skill names*/
+  .skillnames {
+    line-height: 2.2;
+    padding-left: 0.60%;    
+  }
+
+  /*skill names text */
+  .skillnames a {
+    text-align: center;
+    padding: 4px;
+  }
+
+  /*remove hover effect*/
+  .skillnnname:hover{
+    color: #ffffff;
+    cursor:pointer;
+    text-decoration: none;
+  }
+
+  /*Experience alignment */
+  .experiencealignment {
+    margin-top:4%;
+    line-height: 120%;
+    padding-top: 3%;
+  }
+
+  /*company name title*/
+  .companynametitle {
+    margin-top: -0.80%;    
+  }
+
+  /*Experience date*/
+  .experdate {
+    color: #007BFF;
+    margin-top: -0.70%;
+    font-size: 14px;
+  }
+
+  /*Working place*/
+.workingplace {
+    color: #007BFF;
+    font-size: 14px;
+}
+
+/*responsibilities */
+.responsibilities{
+    color: #007BFF;
+    margin-top: -2%;
+    font-size: 14px;
+}
+
+/*responsibilities list alinment*/
+.responsibilitieslistalinment {
+    margin-top: -2%;
+}
+
+/*Achievements*/
+.achievements {
+    font-size: 16px;
+    padding-left: 4px;
+ 
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
+
+}
+
+/*work base*/
+.workbase {
+    margin-top: -2.5%;
+    font-size: 14px;
+}
+
+
+/*iprofile mage*/
+.myimage img { 
+  border-radius: 50%;
+  border: 6px solid #007BFF;      
+  vertical-align: center;
+  align-items: center; 
+  text-align: center;
+  height: 130px;
+  width: 130px;
+   position: relative;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 27%;
+  
+}
+
+/*box1 */
+
+.box1 {
+  width: 45px;
+  height: 70px;
+  background-color: #000000;
+  float: left;
+  margin-left: -25%;
+  margin-top: -22%;
+}
+
+/*box2 */
+
+.box2 {
+  width: 45px;
+  height: 70px;
+  background-color: #4F90CD;
+  float: left;
+  margin-left: -9.8%;
+  margin-top: -5%;
+}
+
+/*box3 */ 
+
+.box3 {
+  width: 45px;
+  height: 70px;
+  background-color: #4F90CD;
+  float: left;
+  margin-left: -9.8%;
+  margin-top: 3%;
+}
+
+/*box4*/
+
+.box4{
+  width: 45px;
+  height: 70px;
+  background-color: #4F90CD;
+  float: left;
+  margin-left: -9.8%;
+  margin-top: 9%;
+}
+
+/*box5*/
+.box5{
+  width: 45px;
+  height: 70px;
+  background-color: #4F90CD;
+  float: left;
+  margin-left: -9.8%;
+  margin-top: 3%;
+}
+
+
+/*box6*/
+.box6 {
+  width: 45px;
+  height: 70px;
+  background-color: #4F90CD;
+  float: left;
+  margin-left: -9.8%;
+  margin-top: 5%;
+}
+
+/* prfile div top margin*/
+.profiledivtopmargin {
+  margin-top: 4%;
+}
+
+/*social media link margin*/
+.socialmedialinkmargin {
+  margin-top: 9%;
+}
+
+/*top border*/
+.topborder {
+  background-color: #4F90CD;
+  width: 100%;
+  height: 4px;
+  border-radius: 6px;
+}
+
+/*page number*/ 
+.pagenumber {
+  margin-top: 15%;
+  text-align: end;
+   padding-bottom: 2.5%;
+
+}
+
+/*work exp margin top*/
+.workexpmargintop {
+  margin-top: -2%;
+}
+
+/*work exp padding top*/
+.workexppaddingtop {
+  padding-top: 3%;
+}
+
+/*Zirki working place*/
+.Zirkiworkingplace {
+  margin-top: -9%;
+}
+
+/*honor awards heading*/
+.honorawards {
+  margin-top: 3%;
+}
+
+/*foundclass*/
+.foundclass {
+  margin-top: -4%;
+}
+
+/*foundparagra*/
+.foundparagra {
+  line-height: 95%;
+}
+
+/*certificate */
+.certiheight {
+  line-height: 86%;
+}
+
+/*certificate size*/
+.certifontsize {
+  font-size:16px;
+}
+
+/*intermargintop*/
+.intermargintop {
+  margin-top: -2%;
+}
+
+/*interpaddingtop*/
+.interpaddingtop {
+  padding-top: 3%;
+}
+
+/*intersetname*/
+.intersetname {
+  margin: 1.5%;
+  display: inline;
+}
+
+/*intersetname image */
+.intersetname img {
+  margin-right: 2%
+}
+
+/*meditation class*/
+.mediclass {
+  position: absolute;
+  display: inline-block;
+  padding-top: 0.80%;
+  font-size: 12px;
+}
+
+/*other inter class*/
+.otherintclass {
+  position: absolute;
+  display: inline-block;
+  padding-top: 0.80%;
+  font-size: 14px;
+}
+
+/*education margin*/
+.educationmargin {
+  margin-top: 3%;
+}
+
+/*education complete date*/
+.educationcompletedate {
+  margin-bottom: 20%;
+}
+
+/*education place*/
+.educationworkplace {
+  margin-top: -22%;
+}
+
+/*last update*/
+.lastupdate {
+  line-height: 25%;
+  float: right;
+  margin-top: 8%;
+}
+
+/*last update margin*/
+.lastupdatemargin {
+  margin-left: 12%;
+}
+
+/*three page*/
+.threepage {
+  margin-top: 70%;
+  text-align: end;
+   padding-bottom: 5%;
+   margin-bottom: 2%;
+}
+
+/*last update date*/
+.lastupdatedate {
+  padding-right: -3%;
+  word-spacing: 80%;
+}
+
+/*paymill line height*/
+.paymilllineheight {
+  line-height: 95%;
+}
+
+/*link class*/
+.linkclass {
+  color: #35393D;
+  word-wrap: break-word
+}
+
+.linkclass:hover {
+  color: #35393D;
+}
+
+
+
+
+
+/*media query/*
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+
+  .box1 {
+    width: 45px;
+    height: 70px;
+    background-color: #000000;
+    float: left;
+    margin-left: -24.5%;
+    margin-top: -22%;
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+
+  .box1 {
+    width: 45px;
+    height: 70px;
+    background-color: #000000;
+    float: left;
+    margin-left: -24.8%;
+    margin-top: -22%;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .allsocialmedialinks ul li{
+    line-height: 130%;
+    margin-top: 5%;
+    text-align: left;
+    list-style-type: none;
+  }
+
+  .box1 {
+    width: 45px;
+    height: 70px;
+    background-color: #000000;
+    float: left;
+    margin-left: -9.5%;
+    margin-top: -22%;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  .allsocialmedialinks ul li{
+    line-height: 130%;
+    margin-top: 5%;
+    text-align: center;
+    list-style-type: none;
+  }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .educationheading {
+    margin-top: 12%;
+  }
+
+  .allsocialmedialinks ul li{
+    line-height: 130%;
+    margin-top: 5%;
+    text-align: left;
+    list-style-type: none;
+  }
+
+  .box1 {
+    width: 20px;
+    height: 30px;
+    background-color: #000000;
+    float: left;
+    margin-left: -10%;   
+  }
+
+  .box2 {
+    width: 20px;
+    height: 30px;
+    background-color: #4F90CD;
+    float: left;
+    margin-left: -9.8%;
+    margin-top: -5%;
+  }
+
+  .box3 {
+    width: 20px;
+    height: 30px;
+    background-color: #4F90CD;
+    float: left;
+    margin-left: -9.8%;
+    margin-top: 3%;
+  }
+
+  .box4{
+    width: 20px;
+    height: 30px;
+    background-color: #4F90CD;
+    float: left;
+    margin-left: -9.8%;
+    margin-top: 9%;
+  }
+
+  .box5{
+    width: 20px;
+    height: 30px;
+    background: #4F90CD;
+    float: left;
+    margin-left: -9.8%;
+    margin-top: 3%;
+  }
+
+  .box6 {
+    width: 20px;
+    height: 30px;
+    background-color: #4F90CD;
+    float: left;
+    margin-left: -9.8%;
+    margin-top: 5%;
+  }
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+  /*introductionpar */
+.introductionpara {
+  text-justify: auto;
+  text-align: justify;
+}
+
+.profilename {
+  text-align: center;
+}
+
+.postname{
+  text-align: center;
+}
+
+.allsocialmedialinks {
+  line-height: 50%;
+  margin-top: 5%;
+  text-align: center;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.achievements a {
+  font-size: 14px;
+}
+
+.box1 {
+  width: 20px;
+  height: 30px;
+  background-color: #000000;
+  float: left;
+  margin-left: -10%;
+  margin-top: -57%;
+}
+
+.box2 {
+  width: 20px;
+  height: 30px;
+  background-color: #4F90CD;
+  float: left;
+  margin-left: -9.8%;
+  margin-top: -5%;
+}
+
+.box3 {
+  width: 20px;
+  height: 30px;
+  background-color: #4F90CD;
+  float: left;
+  margin-left: -9.8%;
+  margin-top: 3%;
+}
+
+.box4{
+  width: 20px;
+  height: 30px;
+  background-color: #4F90CD;
+  float: left;
+  margin-left: -9.8%;
+  margin-top: 9%;
+}
+
+.box5{
+  width: 20px;
+  height: 30px;
+  background: #4F90CD;
+  float: left;
+  margin-left: -9.8%;
+  margin-top: 3%;
+}
+
+.box6 {
+  width: 20px;
+  height: 30px;
+  background-color: #4F90CD;
+  float: left;
+  margin-left: -9.8%;
+  margin-top: 5%;
+}
+
+.workbase {
+  margin-top: -6.5%;
+  font-size: 14px;
+}
+  
+.paymilllineheight {
+  line-height: 95%;
+  margin-top: -10%;
+}
+
+.foundparagra {
+  line-height: 95%;
+  margin-top: -10%;
+}
+}
+
+

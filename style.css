@@ -1283,8 +1283,91 @@ h3.comment-form-title{
      background-color: #222;
      padding: 20px 0;
  }
+
+
+
+
+@media only screen  and (min-width : 1224px) {
+    /* Styles */
+     /*newfooterfixed*/
+    .newfooterfixed {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    }
+    
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+    /* Styles */
+        /*newfooterfixed*/
+        .newfooterfixed {
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    }
+
+
  .footer p {
      font-size: 16px;
      color: #fff;
      margin: 0px;
  }
+
+ /*portfoliobutton button*/
+ .portfoliobutton button {
+     background-color:#18BA60;
+     border: none;
+     color: #ffffff;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin: 4px 2px;
+     cursor: pointer;   
+     margin-top: 5%;
+ }
+
+ .portfoliobutton button:hover {
+     background-color: #222222;
+     transition: 1s;
+ }
+
+ .portfoliobutton button a {
+    list-style: none;
+    color: #ffffff;
+ }
+
+ /*read more button*/
+ .readbutton {
+    background-color:#18BA60;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    cursor: pointer;    
+    margin-top: 4%;
+    margin-bottom: -10%;
+    line-height: 50%;
+    margin-left: 40%;    
+}
+
+.readbutton:hover {
+    background-color: #222222;
+    transition: 1s;
+}
+
+.readbutton a {
+   list-style: none;
+   color: #ffffff;
+}
+
+/* new padding alignment */
+.newpaddingalignment {
+    padding-bottom: 67px;
+    padding-top: 101px;
+}
