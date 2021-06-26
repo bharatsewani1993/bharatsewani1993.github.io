@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Bharat Sewani is my personal resume website.">
+        <meta name="keywords" content="Bharat Sewani, resume, cv, portfolio, personal, Golang developer,PHP developer, Backend Developer ,personal resume, onepage, clean, modern">
+        <meta name="author" content="Bharat Sewani">
+      
+
+
+        <title>Phone- Number-Verification-Bypass-in-Twitter–Bug-Bounty-POC</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/png">
+
+        <!--== bootstrap ==-->
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+        <!--== font-awesome ==-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+        <!--== animate css ==-->
+        <link href="./assets/css/animate.min.css" rel="stylesheet">
+
+        <!--== style css ==-->
+        <link href="./style.css" rel="stylesheet">
+
+        <!--== responsive css ==-->
+        <link href="./assets/css/responsive.css" rel="stylesheet">
+
+        <!--== theme color css ==-->
+        <link href="./assets/css/theme-color.css" rel="stylesheet">
+
+        <!--== jQuery ==-->
+        <script src="./assets/js/jquery-2.1.4.min.js"></script>
+
+        <style>
+            #blogContainer .single-info > .info-content > h5 {
+                line-height: 1.4;
+            }
+            #blogContainer .single-info > .info-content > p {
+                line-height: 1.2;
+                color: #444444 !important;
+            }
+            #blogContainer .single-info {
+                padding-left: 15px;
+            }
+            #blogContainer .single-info > .info-icon {
+                left: 15px;
+            }
+            #blogContainer .single-info > .info-content {
+                padding-left: 65px;
+            }
+            .nw-blog-link {
+                text-decoration: none !important;
+            }
+            .nw-blog-link:hover > .single-info,
+            .nw-blog-link:focus > .single-info,
+            .nw-blog-link:active > .single-info {
+                background: #ffffff;
+            }
+
+            .main-menu ul.navbar-nav li a {
+                color:#444;
+            }
+
+            .logo a {
+                color: #18ba60;;
+
+            }
+        </style>
+
+        <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>          
+
+        <!--===== HEADER AREA =====-->
+        <header class="navbar custom-navbar navbar-fixed-top" style="background:#ffffff;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="logo">
+                           <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <a class="theme-color" href="./index.html">Bharat</a> <!--== logo ==-->
+                        </div>
+                    </div>
+
+                    <div class="col-md-9 col-sm-8 col-xs-12">
+                       <nav class="main-menu">
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav"> <!--== manin menu ==-->
+                                <li><a class="smoth-scroll" href="index.html">Home</a></li>
+                                <li><a class="smoth-scroll" href="index.html#about">About</a></li>
+                                <li><a class="smoth-scroll" href="index.html#services">service</a></li>
+                                <li><a class="smoth-scroll" href="index.html#work">work</a></li>
+                                <li><a class="smoth-scroll" href="index.html#testimonial">testimonial</a></li>
+                                <li><a class="smoth-scroll" href="index.html#contact">contact</a></li>
+                                <li class="active"><a class="smoth-scroll" href="blog.html">blog</a></li>
+                            </ul>
+                        </div>
+                        </nav>
+                    </div>
+                </div> <!--/.row-->
+            </div> <!--/.container-->
+        </header>
+        <!--===== END HEADER AREA ======-->
+
+        
+        <div id="work" class="work-area section-padding">
+              <!--start blog-->
+        <div class="container">
+            <div class="row">
+                <div class="chatboxmargin">
+                    <div class="chatboxpadding">
+                         <div class="row"> 
+                        <div class="col-md-12 col-lg-12 col-xl-12 col-12 col-sm-12 chatbotsheading shadowmargin">                   
+                            <h1 class="text-left textwraptitle bulidingscratch">Phone Number Verification Bypass in Twitter – Bug Bounty POC</h1>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-12 col-lg-12 col-xl-12">
+                                    <h3 class="categories">Category</h3>
+                                    <span><a href="#"  class="categoritag"><span class="pipeclass">|</span>Technology</a></span>
+                                    <span><a href="#"  class="categoritag"><span class="pipeclass">|</span>Entrepreneurship</a></span>
+                                    <span><a href="#"  class="categoritag"><span class="pipeclass">|</span>Remote Team</a></span>                                                                      
+                                </div>                                 
+                            </div>  
+                            
+                            <hr  class="hrmargin">  
+                   
+                      
+                            <p class="bulidingscratch">
+                                Hello Bug Bounty POC Viewers . I am Bharat Sewani and today i’ll
+                                 share one of  my old finding on twitter.com that how i found phone
+                                  number verification bypass in twitter.The Impact of this vulnerability
+                                   was to Bypass verification of User registerd Phone no. on Twitter.
+                                   My this Bug was Duplicate so not got Any Award for this.,but
+                                    just for educational and learning Purpose i decided to share
+                                     this bug with you all.                           
+                            </p>
+
+                            <h4 class="text-left textwraptitle bulidingscratch"><b>Steps to Reproduction : </b></h4>   
+                            <ol class="bulidingscratch">
+                                <li class="bulidingscratch"><p> -Using twitter.com when we sign Up and go to following URL
+                                     <a href="https://twitter.com/settings/add_phone" target="_blank">https://twitter.com/settings/add_phone</a>
+                                      for Activating our phone no.</p></li>
+
+                                <li class="bulidingscratch"><p> -Now Add your Phone no here. and it Send us a Twitter Confirmation Code.</p></li>
+
+                                <li class="bulidingscratch"><p> -now we add the verification code, which we got on our phone, so it’s Activate our Account.
+                                    But In This Scenario there were no limit were  set for Verify the Verification Code,
+                                     so it was easy to add a Fake/False Phone no, then twitter will send confirmation
+                                      code on fake/false phone no. then the Attacker can Launch a brute force Attack
+                                       on Confirmation Code Field Using own JavaScript or any other 3rd Party Tool.
+                                        As We Know that is 6 Digit Confirmation Code so only 1000000 Combinations
+                                         are possible for 6 digit code. and after Several Attempts The code would be
+                                          the Perfect one and it will Activate Account using a Fake/False no.and with
+                                           this.. there was a one more vulnerability was there That.. Twitter Send
+                                            user a Same Confirmation Code Every time there were no any
+                                             changes even after several of attempts. so When After Sometime
+                                              user Change is Phone no. even Though he/she can use Old Confirmation
+                                               Code to Activate his Account even if the no is Allotted to someone else.</p></li>
+                             </ol>    
+
+
+
+
+                            <p class="bulidingscratch">
+                                I’m Submitting the snapshot here as the Proof of Concept...
+                            </p>
+
+                            <img src="./assets/img/phonverfication.png" alt="img" class="img-fluid bulidingscratch">
+                            <div  class="Verificationbox text-center"><label  class="verificationtext">Phone Number Verification Bypass in Twitter</label></div>
+                            <img src="./assets/img/phonverfication2.png" alt="img" class="img-fluid bulidingscratch">
+                            <div  class="Verificationbox text-center"><label  class="verificationtext">Phone Number Verification Bypass in Twitter</label></div>
+
+
+                         
+                                
+                                <div class="widget tags newpaddingcg"> <!-- widget single -->
+                                    <h3 class="widget-title">tags</h3>
+                                     <ul>
+                                         <li><a href="#">Entrepreneurship</a></li>
+                                         <li><a href="#">Tecnology</a></li>
+                                        <li><a href="#">Golang</a></li>
+                                           <li><a href="#">Startup</a></li>
+                                        <li><a href="#">Remote Team</a></li>
+                                        <li><a href="#">Remote Work</a></li>
+                                         <li><a href="#">Life Experience</a></li>
+                                          <li><a href="#">Business</a></li>
+                                     </ul>
+                                 </div>
+        
+                        
+                        </div>
+                    </div>  
+
+                 
+
+             
+             
+
+                        <!--end shadowbox-->
+                    </div>
+                    <!--chatbox padding-->
+                </div>   
+                <!--end chatbox margin-->         
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+        
+
+         
+
+
+             </div><!--recent work div-->
+
+
+             
+                          <!--====== FOOTER AREA ======-->
+                          <div class="footerposition">
+                            <footer class="footer5" id="footer">
+                                <div class="container">
+                                    <div class="row wow zoomIn" data-wow-delay="0.4s">
+                                        <div class="col-md-12 text-center">
+                                            <p>&copy;2021 <strong>Bharat Sewani</strong>. All Rights Reserved</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                          </div>
+        <!--====== END FOOTER AREA ======-->
+
+
+
+                <!--== plugins js ==-->
+                <script src="./assets/js/plugins.js"></script>
+
+                <!--== typed js ==-->
+                <script src="./assets/js/typed.js"></script>
+        
+                <!--== stellar js ==-->
+                <script src="./assets/js/jquery.stellar.min.js"></script>
+        
+                <!--== counterup js ==-->
+                <script src="./assets/js/jquery.counterup.min.js"></script>
+        
+                <!--== waypoints js ==-->
+                <script src="./assets/js/jquery.waypoints.min.js"></script>
+        
+                <!--== wow js ==-->
+                <script src="./assets/js/wow.min.js"></script>
+        
+                 <!--== validator js ==-->
+                <script src="./assets/js/validator.min.js"></script>
+        
+                 <!--== mixitup js ==-->
+                <script src="./assets/js/jquery.mixitup.js"></script>
+        
+                 <!--== contact js ==-->
+                <script src="./assets/js/contact.js"></script>
+        
+                 <!--== main js ==-->
+                <script src="./assets/js/main.js"></script>
+            </body>
+        </html>
+        

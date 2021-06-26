@@ -18,29 +18,6 @@ NOTE: This is the custom jQuery file for the template
 
     jQuery(document).ready(function($){
 
-        /*======== DEMO PANLE JS ===========*/
-        $("span.color_1").on("click", function(){
-            $("body").addClass("color_1_theme").removeClass("color_2_theme color_3_theme color_4_theme");
-        });
-        $("span.color_2").on("click", function(){
-            $("body").addClass("color_2_theme").removeClass("color_1_theme color_3_theme color_4_theme");
-        });
-        $("span.color_3").on("click", function(){
-            $("body").addClass("color_3_theme").removeClass("color_1_theme color_2_theme color_4_theme");
-        });
-        $("span.color_4").on("click", function(){
-            $("body").addClass("color_4_theme").removeClass("color_1_theme color_3_theme color_2_theme");
-        });
-    	$(".spiner_button").on("click", function(event){
-            event.preventDefault();
-            if ( $(this).hasClass("slide_in_out") ) {
-            $(".demo_panel_box").stop().animate({left:"-180px"}, 400);
-            } else {
-            $(".demo_panel_box").stop().animate({left:"0px"}, 400);
-            }
-            $(this).toggleClass("slide_in_out");
-            return false;
-        });
 
         /*======== Sticky header ===========*/
         $('.navbar-collapse a').on('click',function(){
