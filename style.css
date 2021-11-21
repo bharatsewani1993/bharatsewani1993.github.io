@@ -1624,4 +1624,12 @@ NOTE: This is main stylesheet of the template.
     font-size: 35px;
  }
 
- 
+ /*last updated*/
+ .lastupdated {
+    line-height: 25px;
+ }
+
+ .lastupdated label {
+    font-size: 18px;
+    font-weight: 400;
+ }
