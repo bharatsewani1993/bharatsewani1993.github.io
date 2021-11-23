@@ -97,7 +97,7 @@ NOTE: This is responsive stylesheet of the template, This file contains the styl
         transition: all 0.4s ease-in-out 0s;
     }
     .navbar-toggle .icon-bar {
-        background: #333 none repeat scroll 0 0
+        background: #333 none repeat scroll 0 0;
     }
     .navbar-header {
         display: inline-block;
@@ -203,7 +203,7 @@ NOTE: This is responsive stylesheet of the template, This file contains the styl
     h3.comment-title {
         font-size: 18px;
     }
-    .footer {} .footer-text P {
+    .footer-text P {
         font-size: 14px;
     }
     
@@ -220,6 +220,11 @@ NOTE: This is responsive stylesheet of the template, This file contains the styl
     .welcome-text::before,.welcome-text::after {
 	width: 15%;
 }
+
+.autimage {
+    content: url('../img/author_mobile.jpg');  
+}
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px){
@@ -314,6 +319,10 @@ NOTE: This is responsive stylesheet of the template, This file contains the styl
         background-color: #F7F7F7;
         border-radius: 4%;
         margin-top: 8%;
+    }
+
+    .autimage {
+        content: url('../img/author_mobile.jpg');  
     }
     
  
