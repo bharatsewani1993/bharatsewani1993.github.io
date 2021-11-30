@@ -354,7 +354,7 @@ NOTE: This is main stylesheet of the template.
      text-transform: uppercase;
  }
 
- .tab-content p {}
+
 
  .social-links {
      padding: 0;
@@ -442,7 +442,7 @@ NOTE: This is main stylesheet of the template.
      transition: 0.4s;
  }
 
- .single-service:hover {}
+ 
 
  .service-img {
      height: 65px;
@@ -500,12 +500,12 @@ NOTE: This is main stylesheet of the template.
      top: 0;
  }
 
- .single-service:hover {}
+
 
  /*================================================
         7 WORK AREA
 ==================================================*/
- .work-area {}
+
 
  .work-inner .mix {
      display: none;
@@ -527,7 +527,7 @@ NOTE: This is main stylesheet of the template.
      transition: 0.4s;
  }
 
- ul.work-list li.active {}
+ 
 
  .single-work {
      position: relative;
@@ -602,7 +602,7 @@ NOTE: This is main stylesheet of the template.
      vertical-align: middle;
  }
 
- .single-work:hover .hover-content {}
+
 
  .hover-content h4,
  .hover-content p {
@@ -754,7 +754,7 @@ NOTE: This is main stylesheet of the template.
         9 TESTIMONIAL AREA 
 ==================================================*/
 
- .testimonial-area {}
+
 
  .single-testimonial {
      position: relative;
@@ -836,8 +836,7 @@ NOTE: This is main stylesheet of the template.
  /*================================================
         11 CONTACT INFO AREA
 ==================================================*/
- .contact-form,
- .author-adress {}
+ 
 
  .contact-form .form-group {
      margin-bottom: 15px;
@@ -994,7 +993,7 @@ NOTE: This is main stylesheet of the template.
      background-color: #fff;
  }
 
- .widget.search {}
+ 
 
  .search-form {
      background-color: #f7f7f7;
@@ -1393,11 +1392,7 @@ NOTE: This is main stylesheet of the template.
      margin-left: 8%;
      margin-right: 8%;
      margin-top: 2%;
-
  }
-
-
-
 
 
  .chatboxpadding {
@@ -1624,4 +1619,16 @@ NOTE: This is main stylesheet of the template.
     font-size: 35px;
  }
 
- 
+ /*last updated*/
+ .lastupdated {
+    line-height: 25px;
+ }
+
+ .lastupdated label {
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+.autimage {
+    content: url('./assets/img/author.jpg');  
+}
