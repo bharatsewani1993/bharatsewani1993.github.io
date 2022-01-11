@@ -15,7 +15,8 @@
       background-color: #18ba60;
       color: #333;
       box-shadow: 0 9px #999;
-      padding: 12px 16px;
+      padding: 12px 25px;
+
   }
 
   .chatbtn:active {
@@ -24,34 +25,96 @@
     transform: translateY(4px);
   }
 
+  .chatbotmargin {
+    margin-left: 2%;
+    margin-right: 12%;
+    margin-top: -4%;
+    margin-bottom: 4%;
+}
 
-  .chatbtn span {
-    cursor: pointer;
+.chatbotpadding {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+} 
+
+.chatbotbutton button {
+  background-color: #18BA60;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 3%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.chatbottext p {
+  font-size: 21px;
+line-height: 35px;
+}
+
+
+.chatbottext {
+  text-align: center;
+  align-items: center;
+}
+
+.chatbotalign {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9%;
+  margin-top: 2%;
+}
+
+.chatbotheading {
+  margin: 2% 2% 2% 10%;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .chatbottext p {
+    font-size: 21px;
+  line-height: 35px;
+  text-align: justify;
+  }   
+}
+
+@media (min-width: 670px) and (max-width: 1024px) {
+  .chatbottext p {
+    font-size: 18px;
+  line-height: 35px;
+  text-align: justify;
+  }  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {  
+  .chatbottext p {
+    font-size: 21px;
+  line-height: 35px;
+  text-align: center;
+  }
+
+  .chatbotbutton button {
+    background-color: #18BA60;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-    position: relative;
-    transition: 0.5s;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-bottom: 12%;
+    justify-content: center;
+    align-items: center;
   }
-  
-  .chatbtn span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: -40px;
-    right: 5px;
-    transition: 0.5s;
-    font-size: 48px;
-  }
-  
-  .chatbtn:hover span {
-    padding-right: 25px;
-  }
-  
-  .chatbtn:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
-
-  .btntopmargin {
-    margin-top: 15%;
-  }
+}
