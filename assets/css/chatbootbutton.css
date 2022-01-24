@@ -29,15 +29,16 @@
 }
 
 
-.chatbottext p {
+.chatbottext li {
   font-size: 21px;
 line-height: 35px;
+list-style-type:none;
 }
 
 
 .chatbottext {
-  text-align: center;
-  align-items: center;
+  text-align: left;
+  align-items: left;  
 }
 
 .chatbotalign {
@@ -54,27 +55,27 @@ line-height: 35px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .chatbottext p {
+  .chatbottext li {
     font-size: 21px;
   line-height: 35px;
-  text-align: justify;
+  text-align: left;
   }   
 }
 
 @media (min-width: 670px) and (max-width: 1024px) {
-  .chatbottext p {
-    font-size: 18px;
+  .chatbottext li {
+    font-size: 21px;
   line-height: 35px;
-  text-align: justify;
+  text-align: left;
   }  
 }
 
 
 @media (min-width: 320px) and (max-width: 480px) {  
-  .chatbottext p {
+  .chatbottext li {
     font-size: 21px;
-  line-height: 35px;
-  text-align: center;
+  line-height: 40px;
+  text-align: left;
   }
 
   .chatbotbutton button {
